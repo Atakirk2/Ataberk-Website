@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Website Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+	<section class="sub-header2">
+		<nav>
+				<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"> </i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="">COURSE</a></li>
+				<li><a href="">BLOG</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Courses</h1>
+	</section>
+
+<!----------Courses------------->
+
+<section class="course">
+		<h1>Courses offered by me</h1>
+		<p>Phasellus vel dignissim elit. Maecenas nulla enim, aliquam vestibulum rhoncus ut, volutpat vel erat.</p>
+		<div class="row">
+			<div class="course-column">
+				<h3>Web Development Fundamentals</h3>
+				<p>In hac habitasse platea dictumst. Sed eleifend orci in accumsan malesuada. Morbi ligula lacus, volutpat id ipsum ac, consectetur ullamcorper nisi. Curabitur euismod, ex et condimentum accumsan, magna nisl pellentesque ex, ut ultrices est augue et mauris. Sed venenatis lacinia neque, vitae tristique erat.</p>
+			</div>
+			<div class="course-column">
+				<h3>Intorudction to Machine Learning</h3>
+				<p>In hac habitasse platea dictumst. Sed eleifend orci in accumsan malesuada. Morbi ligula lacus, volutpat id ipsum ac, consectetur ullamcorper nisi. Curabitur euismod, ex et condimentum accumsan, magna nisl pellentesque ex, ut ultrices est augue et mauris. Sed venenatis lacinia neque, vitae tristique erat.</p>
+			</div>
+			<div class="course-column">
+				<h3>Mobile Programming with Flutter</h3>
+				<p>In hac habitasse platea dictumst. Sed eleifend orci in accumsan malesuada. Morbi ligula lacus, volutpat id ipsum ac, consectetur ullamcorper nisi. Curabitur euismod, ex et condimentum accumsan, magna nisl pellentesque ex, ut ultrices est augue et mauris. Sed venenatis lacinia neque, vitae tristique erat.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="course-column">
+				<h3>OOP with Java</h3>
+				<p>In hac habitasse platea dictumst. Sed eleifend orci in accumsan malesuada. Morbi ligula lacus, volutpat id ipsum ac, consectetur ullamcorper nisi. Curabitur euismod, ex et condimentum accumsan, magna nisl pellentesque ex, ut ultrices est augue et mauris. Sed venenatis lacinia neque, vitae tristique erat.</p>
+			</div>
+			<div class="course-column">
+				<h3>Data Structures and Algorithms</h3>
+				<p>In hac habitasse platea dictumst. Sed eleifend orci in accumsan malesuada. Morbi ligula lacus, volutpat id ipsum ac, consectetur ullamcorper nisi. Curabitur euismod, ex et condimentum accumsan, magna nisl pellentesque ex, ut ultrices est augue et mauris. Sed venenatis lacinia neque, vitae tristique erat.</p>
+			</div>
+			<div class="course-column">
+				<h3>Linear Algebra</h3>
+				<p>In hac habitasse platea dictumst. Sed eleifend orci in accumsan malesuada. Morbi ligula lacus, volutpat id ipsum ac, consectetur ullamcorper nisi. Curabitur euismod, ex et condimentum accumsan, magna nisl pellentesque ex, ut ultrices est augue et mauris. Sed venenatis lacinia neque, vitae tristique erat.</p>
+			</div>
+		</div>
+	</section>
+
+
+<!-------Footer----------->
+
+<section class="footer">
+	<h4>About Me</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur, odio ac hendrerit aliquam, metus felis pulvinar lorem, et euismod arcu neque venenatis nulla. Mauris lacus erat, porttitor et erat ac, sodales imperdiet eros.</p>
+	<div class="icons">
+	<i class="fab fa-facebook"></i>
+		<i class="fab fa-twitter"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart"></i> by Atakirk</p>
+</section>
+
+
+<!-------JavaScript for Toggle Menu------>
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right= "0";
+	}
+function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>
+</body>
+</html>
